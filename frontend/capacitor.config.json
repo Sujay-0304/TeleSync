@@ -1,0 +1,12 @@
+{
+  "appId": "com.tgphotos.app",
+  "appName": "TG Photos",
+  "webDir": "dist",
+  "server": {
+    "androidScheme": "http",
+    "cleartext": true
+  },
+  "android": {
+    "allowMixedContent": true
+  }
+}

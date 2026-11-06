@@ -1,0 +1,9 @@
+# Optional AI features: semantic search (OpenCLIP) + face groups (facenet-pytorch).
+# Install with: .venv/bin/pip install -r requirements-ml.txt
+# CPU-only torch keeps the download reasonable (~800MB vs ~3GB for CUDA).
+--extra-index-url https://download.pytorch.org/whl/cpu
+torch>=2.2
+torchvision
+open_clip_torch>=2.24
+numpy>=1.26
+facenet-pytorch>=2.6
